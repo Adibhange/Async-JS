@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Promise</title>
+		<!-- Include Tailwind CSS -->
+		<link
+			href="./output.css"
+			rel="stylesheet" />
+	</head>
+	<body class="bg-slate-300 text-gray-900 font-serif">
+		<div class="container mx-auto mt-20 text-center">
+			<h1 class="text-3xl font-bold mb-6">
+				<span class="text-indigo-600">Promise</span> Function
+			</h1>
+			<button
+				id="promiseBtn"
+				class="px-6 py-3 border-dashed border-black border-2 rounded-2xl transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+				Click Me
+			</button>
+			<div
+				class="msg mt-6 text-lg text-gray-700"
+				id="msg">
+				Press the button to execute the promise.
+			</div>
+
+			<div
+				class="data mt-6 p-6 bg-slate-200 shadow-lg rounded-lg hidden m-auto w-1/2 text-left overflow-y-auto h-[500px]"
+				id="data"></div>
+		</div>
+
+		<script src="promises.js"></script>
+	</body>
+</html>
